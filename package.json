@@ -1,0 +1,38 @@
+{
+  "name": "mirai",
+  "version": "1.2.0",
+  "description": "Vũ Hào my mod mirai.js",
+  "main": "mirai.js",
+  "scripts": {
+    "start": "node index",
+    "login": "node login",
+    "test": "node --trace-warnings --use_strict --async-stack-traces mirai"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VuHaokg/VH.git"
+  },
+  "author": "Vũ Hào",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VuHaokg/VH/issues"
+  },
+  "homepage": "https://github.com/VuHaokg/VH#readme",
+  "dependencies": {
+    "@miraipr0ject/assets": "^1.0.9",
+    "axios": "^1.4.0",
+    "cfonts": "^3.1.1",
+    "chalk": "^4.1.2",
+    "chalkercli": "^1.6.4",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "express": "^4.17.3",
+    "fca-anup": "^33.10.20",
+    "fs-extra": "^11.1.1",
+    "http": "^0.0.1-security",
+    "moment-timezone": "^0.5.43",
+    "os": "^0.1.2",
+    "semver": "^7.5.0",
+    "sequelize": "^6.31.1"
+  }
+}
